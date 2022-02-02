@@ -6,3 +6,7 @@
 body {
     background-color: #1e90ff;
 }
+
+header, footer {
+   background-color: #add8e6;
+}
