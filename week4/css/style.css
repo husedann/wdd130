@@ -1,27 +1,29 @@
-* { 
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #1e90ff;
-    font-size: 16px;
+  background-color: #1e90ff;
+  font-size: 16px;
 }
 
-header, footer {
-   background-color: #add8e6;
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   align-items: center;
-   justify-content: center;
+header,
+footer {
+  background-color: #add8e6;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
 }
 
 a {
-    color: #90ee90;
+  color: #90ee90;
 }
 
 /* Class selectors **********************/
 .page {
-    max-width: 960px;
-    margin: 1rem auto;
+  max-width: 960px;
+  margin: 1rem auto;
 }
