@@ -12,14 +12,14 @@ header,
 footer {
   background-color: #add8e6;
   display: grid;
-  grid-template-columns: 100px 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
   border: 5px solid #000000;
 }
 
 a {
-  color: #3b0b0d;
+  color: #19d128;
 }
 
 /* Class selectors **********************/
