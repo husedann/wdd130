@@ -28,26 +28,39 @@
   /* Activity 2 Styles */
   .content2 {
     /* Activity Two Container */
+    position: relative;
   }
   .red2 {
     width: 100px;
     height: 100px;
     background-color: red;
+    position:absolute;
+    top: 50px;
+    left: 50px;
   }
   .green2 {
     width: 100px;
     height: 100px;
     background-color: green;
+    position:absolute;
+    top: 100px;
+    left: 100px;
   }
   .yellow2 {
     width: 100px;
     height: 100px;
     background-color: gold;
+    position:absolute;
+    top: 150px;
+    left: 150px;
   }
   .blue2 {
     width: 100px;
     height: 100px;
     background-color: blue;
+    position:absolute;
+    top: 200px;
+    left: 200px;
   }
   
   /* Activity 3 Styles */
