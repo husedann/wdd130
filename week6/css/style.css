@@ -40,6 +40,8 @@ footer {
   /* Activity One Container */
   display: grid;
  grid-template-columns: 1fr 1fr; 
+ grid-gap: 20px;
+ justify-items: center;
 }
 .red1 {
   width: 100%;
