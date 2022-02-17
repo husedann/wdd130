@@ -146,32 +146,26 @@ footer {
 .content4 {
   /* Activity Four Container */
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  height: 400px;
-  col
 }
 .red4 {
-  width: 400px;
-  height: 200px;
   background-color: red;
   
 }
 .green4 {
-  width: 400px;
-  height: 200px;
+  
   background-color: green;
-  grid-column: 1/3;
 }
 .yellow4 {
-  width: 400px;
-  height: 200px;
+  
   background-color: gold;
 }
 .blue4 {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   background-color: blue;
-    
+  grid-row: 1/4;
+  grid-column: 2/3;
+     
 }
 /* #endregion       */
 
