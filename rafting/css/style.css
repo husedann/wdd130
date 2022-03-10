@@ -56,7 +56,7 @@ nav li {
 }
 
 .fig1 {
-  
+  grid-column: 2/2;
 }
 
 .fig2p {
