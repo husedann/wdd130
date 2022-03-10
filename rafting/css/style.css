@@ -53,18 +53,19 @@ nav li {
 
 .fig1p {
   grid-column: 1/2;
-  gri
-  
 }
 
 .fig1 {
   grid-column: 2/3;
 }
 
-
+.fig2p {
+  grid-column: 2/3;
+  grid-row: 2;
+}
 
 .fig2 {
-
+  
 }
 
 .logo {
