@@ -82,6 +82,15 @@ nav li {
   grid-column: 1/2;
 }
 
+.raftinggallery {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+
 a {
   color: #070807;
 }
