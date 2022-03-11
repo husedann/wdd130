@@ -72,6 +72,11 @@ nav li {
   margin-left: 10px;
 }
 
+.gallery {
+  display: grid;
+}
+
+
 a {
   color: #070807;
 }
