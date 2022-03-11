@@ -61,7 +61,6 @@ nav li {
 
 .fig2p {
   grid-column: 2/3;
-  
 }
 
 .fig2 {
@@ -76,9 +75,9 @@ nav li {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 1fr 1fr;
-  }
-  
-.kern1 { 
+}
+
+.kern1 {
   grid-column: 1/2;
 }
 
@@ -86,10 +85,7 @@ nav li {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 1fr 1fr;
-
 }
-
-
 
 a {
   color: #070807;
