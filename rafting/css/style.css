@@ -72,10 +72,15 @@ nav li {
   margin-left: 10px;
 }
 
-.gallery {
+.raftingtrips {
   display: grid;
-}
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
 
+}
+.kern1 { 
+  grid-column: 1/2;
+}
 
 a {
   color: #070807;
