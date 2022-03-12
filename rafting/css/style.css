@@ -49,6 +49,7 @@ nav li {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
 }
 
 .fig1p {
@@ -75,6 +76,9 @@ nav li {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
 }
 
 .kern1 {
@@ -84,7 +88,11 @@ nav li {
 .raftinggallery {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+max-width: 960px;
 }
 
 .runwithus {
