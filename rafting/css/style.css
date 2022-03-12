@@ -87,6 +87,22 @@ nav li {
   grid-template-columns: 1fr 1fr;
 }
 
+.runwithus {
+  line-height: 1.5;
+  border-top: 5px double;
+  border-bottom: 5px double;
+  background-color: #add8e6;
+  padding: 7px;
+  margin-top: 1.7em;
+  text-align: center;
+}
+.runwithusp {
+  
+  line-height: 1.5;
+  margin-top: 5px;
+}
+
+
 a {
   color: #070807;
 }
