@@ -29,25 +29,29 @@ footer {
 .social {
   align-items: center;
   justify-items: end;
-  
 }
-
-ul {
-  list-style: none;
-  display: flex;
-    }
-
 
 h1 {
   font-size: 20px;
   text-align: center;
 }
 
-.nav li {
-  flex: 1 1 100%;
-  }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  padding: 0;
+}
 
+.navbar li {
+  text-align: center;
+}
+
+.navbar a {
   
+  width: 100px;
+  display: block;
+}
 
 .mygrid {
   display: grid;
@@ -56,9 +60,7 @@ h1 {
   margin-top: 10px;
 }
 
-.fig1p {
-  grid-column: 1/2;
-}
+
 
 .fig1 {
   grid-column: 2/2;
@@ -82,7 +84,6 @@ h1 {
   grid-template-columns: 1fr 1fr;
   margin-top: 15px;
   margin-bottom: 15px;
-  
 }
 
 .kern1 {
@@ -96,7 +97,7 @@ h1 {
   margin-left: 40px;
   margin-top: 15px;
   margin-bottom: 15px;
-max-width: 960px;
+  max-width: 960px;
 }
 
 .runwithus {
@@ -109,11 +110,9 @@ max-width: 960px;
   text-align: center;
 }
 .runwithusp {
-  
   line-height: 1.5;
   margin-top: 5px;
 }
-
 
 a {
   color: #070807;
