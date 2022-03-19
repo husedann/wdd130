@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #bfdaf5;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f5f7;
+  font-size: 25px;
+}
+
+main {
+  margin: 0;
+  border: 1px solid #bbb;
+  padding: 0.5rem;
+}
