@@ -47,7 +47,13 @@ textarea {
 
 label {
     margin-left:auto;
-    width: 50px;
+    width: 25px;
     text-align: left;
 }
 
+
+/* Class selectors **********************/
+.page {
+  max-width: 960px;
+  margin: 1rem auto;
+}
