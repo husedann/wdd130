@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #bfdaf5;
+  background-color: #eff2f5;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f3f5f7;
+  background-color: #59bdf7;
   font-size: 15px;
 }
 
@@ -31,13 +31,13 @@ main {
 input:required,
 select:required,
 textarea:required {
-  border-color: red;
+  border-color: #1100ff;
 }
 
 input:valid,
 select:valid,
 textarea:valid {
-  border-color: #00a2ff;
+  border-color: #1100ff;
 }
 
 textarea {
@@ -46,7 +46,8 @@ textarea {
 }
 
 label {
-    margin-right: 00.5rem;
-    width: 100px;
-    text-align: right;
+    margin-left:auto;
+    width: 50px;
+    text-align: left;
 }
+
