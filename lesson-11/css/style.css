@@ -37,7 +37,7 @@ textarea:required {
 input:valid,
 select:valid,
 textarea:valid {
-  border-color: #48ff00;
+  border-color: #00a2ff;
 }
 
 textarea {
