@@ -11,11 +11,42 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #f3f5f7;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 main {
   margin: 0;
   border: 1px solid #bbb;
   padding: 0.5rem;
+}
+
+.inputfields {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+input:required,
+select:required,
+textarea:required {
+  border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: #48ff00;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+label {
+    margin-right: 00.5rem;
+    width: 100px;
+    text-align: right;
 }
