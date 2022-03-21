@@ -39,7 +39,7 @@
   .navbar ul {
     list-style-type: none;
     margin: 0;
-    display: flex;
+    display: inline-block;
     padding: 0;
   }
   
