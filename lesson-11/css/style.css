@@ -12,7 +12,7 @@ body {
   justify-content: center;
   background-color: #59bdf7;
   font-size: 15px;
-  }
+}
 
 main {
   margin: 0;
@@ -26,13 +26,11 @@ main {
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  
 }
 
 input:required,
 select:required,
 textarea:required {
-  
   border-color: #1100ff;
 }
 
@@ -43,21 +41,19 @@ textarea:valid {
 }
 
 textarea {
-    height: 150px;
-    resize: none;
+  height: 150px;
+  resize: none;
 }
 
 label {
-    margin-left:auto;
-    width: 75px;
-    text-align: right;
-    padding-right: 5px;
+  margin-left: auto;
+  text-align: right;
+  padding-right: 5px;
 }
-
 
 .button {
   padding: 15px 32px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 
 /* Class selectors **********************/
