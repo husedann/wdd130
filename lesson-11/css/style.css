@@ -12,7 +12,7 @@ body {
   justify-content: center;
   background-color: #59bdf7;
   font-size: 15px;
-}
+  }
 
 main {
   margin: 0;
@@ -26,11 +26,13 @@ main {
   justify-content: center;
   align-items: center;
   margin: 1rem;
+  
 }
 
 input:required,
 select:required,
 textarea:required {
+  
   border-color: #1100ff;
 }
 
@@ -48,9 +50,15 @@ textarea {
 label {
     margin-left:auto;
     width: 75px;
-    text-align: left;
+    text-align: right;
+    padding-right: 5px;
 }
 
+
+.button {
+  padding: 15px 32px;
+  background-color: #4CAF50;
+}
 
 /* Class selectors **********************/
 .page {
