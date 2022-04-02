@@ -64,6 +64,8 @@ body {
 
 .btn:hover {
   opacity: 3;
+  background-color: #3e8e41;
+  color: white;
 }
 
 /* Class selectors **********************/
