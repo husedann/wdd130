@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   background-color: #eff2f5;
-
-  border-radius: 5px 5px 0 0;
 }
 
 body {
@@ -11,7 +9,7 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
- 
+  border-radius: 20px 20px 0 0;
   align-items: center;
   font-family: sans-serif;
   letter-spacing: 0.03em;
@@ -23,7 +21,6 @@ body {
   grid-template-rows: 210px 210px 80px;
   grid-template-areas: "image" "text" "stats";
   font-family: Roboto;
-  border-radius: 10px 10px 10px 10px;
   background: white;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
@@ -34,7 +31,7 @@ body {
 .card-image {
   grid-area: image;
   background: url(/mediacard/images/los-angeles-temple-glory-to-the-highest-300x300.jpg);
-  
+  border-radius: 20px 20px 0 0;
   background-size: cover;
 }
 
@@ -42,13 +39,11 @@ body {
   grid-area: text;
   margin: 25px;
   font-variant: common-ligatures tabular-nums;
-  
 }
 
 .card-stats {
   grid-area: stats;
   display: flex;
-  
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   padding: 15px;
