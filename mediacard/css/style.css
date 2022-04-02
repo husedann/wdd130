@@ -69,9 +69,11 @@ body {
   font-size: 17px;
   transition: .4s all;
   background: none;
-  outline: none;
-  
-  
+  outline: none; 
+}
+
+.btn-1:hover {
+  transform: scale(0.9px);
 }
 
 /* Class selectors **********************/
