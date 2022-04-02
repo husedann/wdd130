@@ -23,7 +23,7 @@ body {
   grid-template-rows: 210px 210px 80px;
   grid-template-areas: "image" "text" "stats";
   font-family: Roboto;
-  
+  border-radius: 10px 10px 10px 10px;
   background: white;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
@@ -48,11 +48,30 @@ body {
 .card-stats {
   grid-area: stats;
   display: flex;
-  justify-content: left;
+  
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   padding: 15px;
   url(https://churchofjesuschristtemples.org/los-angeles-california-temple/)
+}
+
+.btn {
+  margin: 10px 0;
+  padding-left: 25px;
+  text-align: center;
+  align-items: right;
+  
+}
+
+.btn-1 {
+  height: 40px;
+  width: 100px;
+  font-size: 17px;
+  transition: .4s all;
+  background: none;
+  outline: none;
+  
+  
 }
 
 /* Class selectors **********************/
