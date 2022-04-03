@@ -29,6 +29,39 @@ body {
   border-radius: 20px 20px 0 0;
 }
 
+.heart {
+  display: flex;
+  background-color: #f20044;
+  height: 15px;
+  width: 15px;
+  position: fixed;
+  top: 75px;
+  left: 750px;
+  transform: rotate(45deg);
+}
+
+.heart::before {
+  content: "";
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  background-color: #f20044;
+  top: -59%;
+  border-radius: 75px 75px 0 0;
+}
+
+.heart::after {
+  content: "";
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  background-color: #f20044;
+  top: 20%;
+  right: 79%;
+  transform: rotate(-90deg);
+  border-radius: 75px 75px 0 0;
+}
+
 .card-image {
   grid-area: image;
   border-radius: 30%;
