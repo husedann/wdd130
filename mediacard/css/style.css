@@ -30,7 +30,7 @@ body {
 
 .card-image {
   grid-area: image;
-  background: url(/mediacard/images/los-angeles-temple-glory-to-the-highest-300x300.jpg);
+  background: url(/WDD130/mediacard/images/los-angeles-temple-glory-to-the-highest-300x300.jpg);
   border-radius: 20px 20px 0 0;
   background-size: cover;
 }
