@@ -30,9 +30,10 @@ body {
 
 .card-image {
   grid-area: image;
-  
+  background-size: 50%;
   border-radius: 20px 20px 0 0;
-  background-size: auto;
+
+  
 }
 
 .card-text {
