@@ -6,6 +6,7 @@
   body {
     background-color: #1e90ff;
     font-size: 16px;
+  
   }
   
   header {
@@ -32,25 +33,37 @@
   }
   
   h1 {
-    font-size: 20px;
+    font-size: 60px;
     text-align: center;
   }
   
+.bbox {
+  display: flex;
+  height: 250px;
+  width: auto;
+}
+
+.nav {
+  display: block;
+  
+}
+
   .navbar ul {
     list-style-type: none;
     margin: 0;
-    display: inline-block;
     padding: 0;
+    overflow: hidden;
   }
   
   .navbar li {
-    text-align: center;
+    float: left;
+    
   }
   
   .navbar a {
     
-    width: 100px;
-    display: block;
+    padding: 15px;
+    
   }
 
   
