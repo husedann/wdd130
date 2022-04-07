@@ -4,13 +4,13 @@
   }
   
   body {
-    background-color: #1e90ff;
+    background-color: #9bc4ec;
     font-size: 16px;
   
   }
   
   header {
-    background-color: #add8e6;
+    background-color: #9bc4ec;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
     align-items: center;
@@ -18,8 +18,8 @@
   }
   
   footer {
-    background-color: #add8e6;
-    display: grid;
+    background-color: #9bc4ec;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: end;
@@ -28,8 +28,8 @@
   }
   
   .social {
-    align-items: center;
-    justify-items: end;
+    
+    justify-items: right;
   }
   
   h1 {
@@ -46,22 +46,26 @@
 .nav {
   display: block;
   
+    
 }
 
   .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding:15px;
     overflow: hidden;
+    
   }
   
   .navbar li {
     float: left;
     
+    
   }
   
   .navbar a {
-    
+    color: #000000;
+    font-size: large;
     padding: 15px;
     
   }
