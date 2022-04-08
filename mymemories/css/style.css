@@ -10,6 +10,7 @@
   }
   
   header {
+    margin: 0 auto;
     background-color: #9bc4ec;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
@@ -33,6 +34,7 @@
 }
 
   table, th, td {
+    margin: 0 auto;
     border: 1px solid black;
     border-collapse: collapse;
   }
@@ -50,7 +52,7 @@
   
   .content {
     text-align: center;
-    margin-bottom: 20px;
+    
     
   }
   
