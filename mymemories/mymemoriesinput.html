@@ -31,23 +31,33 @@
       </nav>
     </header>
     <main>
+      <form action="">
       <div class="inputsection">
       <div class="inputfields">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
+        <label for="familymember">Name:</label>
+        <input type="text" id="familymember" name="familymember" required />
       </div>
       <div class="inputfields">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <label for="event">Event:</label>
+        <input type="text" id="event" name="event" required />
       </div>
       <div class="inputfields">
-        <textarea name="message" id="message" cols="30" rows="10">Message</textarea>
+        <label for="Place?">Place:</label>
+        <input type="text" id="place" name="place" required />
+      </div>
+      <div class="inputfields">
+        <label for="When?">When:</label>
+        <input type="date" id="when" name="when" />
+      </div>
+      <div class="inputfields">
+        <textarea name="details" id="details" cols="30" rows="10">Event details</textarea>
       </div>
       <div class="inputfields">
         <label></label>
-        <button type="submit">Submit Your Info</button>
+        <button type="submit">Submit</button>
       </div>
       </div>
+    </form>
     </main>
     <footer grid>
       <h3>@ 2022 MyMemories - Dan Huse - WDD130</h3>
