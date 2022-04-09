@@ -22,15 +22,20 @@
       <nav class="navbar">
         <ul>
           <li><a class="active" href="#home">Home</a></li>
-          <li><a href="mymemoriesinput.html" target="_blank">iRemember</a></li>
+          <li><a class="inputtab" href="mymemoriesinput.html" target="_blank">iRemember</a></li>
           <li>
-            <a href="mymemoriesprompts.html" target="_blank">Memory Prompts</a>
+            <a class="prompttab" href="mymemoriesprompts.html" target="_blank">Memory Prompts</a>
           </li>
-          <li><a href="#" target="_blank">More</a></li>
+          <li><a class="moretab" href="#" target="_blank">More</a></li>
         </ul>
       </nav>
     </header>
     <main>
+      <div class="inputpic">
+                <img src="images/dananddanawedannouncement.jpg" alt="wedding announcement" height="300"
+          width="300"
+        />
+        </div>
       <form action="mymemorydata.txt">
         <div class="inputsection"> 
       <div class="inputfields">
@@ -52,11 +57,10 @@
         <input type="date" id="when" name="when" />
       </div>
       <div class="inputfields">
-        <textarea name="details" id="details" cols="30" rows="10">Event details</textarea>
+        <textarea name="details" id="details" cols="30" rows="10">Details</textarea>
       </div>
       <div class="inputfields">
-        <label></label>
-        <button onclick="getVal()">Submit</button>
+           <button type="submit">Submit</button>
       </div>
       </div>
     </div> 

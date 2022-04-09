@@ -1,123 +1,122 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: #9bc4ec;
-    font-size: 16px;
-  
-  }
-  
-  header {
-    margin: 0 auto;
-    background-color: #9bc4ec;
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    align-items: center;
-    border: 1px solid #000000;
-  }
-  
-  footer {
-    background-color: #9bc4ec;
-    display: grid;
-    padding: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: right;
-    justify-items: end;
-    font-size: 12px;
-    border: 1px solid #000000;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #9bc4ec;
+  font-size: 16px;
+}
+
+header {
+  margin: 0 auto;
+  background-color: #9bc4ec;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  align-items: center;
+  border: 1px solid #000000;
+}
+
+footer {
+  background-color: #9bc4ec;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: right;
+  justify-items: end;
+  font-size: 12px;
+  border: 1px solid #000000;
+}
+
 .memorytable {
   padding: 50px;
 }
 
-  table, th, td {
-    margin: 0 auto;
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
+table,
+th,
+td {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 
-  th, td {
-    padding: 15px;
-  }
+th,
+td {
+  padding: 15px;
+}
 
-  h1 {
-    font-size: 60px;
-    text-align: center;
-    
-  }
-  
-  
-  .content {
-    text-align: center;
-    
-    
-  }
-  
-  h2 {
-        
-    font-size: 35px;
-    text-align: center;
-   
-  }
-    .para {
-      margin: 0 auto;
-    text-align: center;
-    
-    border: 2px solid #000000;
-    height: 100px;
-    width: 960px;
-    padding: 10px;
-    
-    
-  }
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+.para {
+  margin: 0 auto;
+  text-align: center;
+
+  border: 2px solid #000000;
+  height: 100px;
+  width: 960px;
+  padding: 10px;
+}
 
 .bbox {
-  
   padding: 20px;
   display: flex;
   height: 250px;
- 
 }
 
 .nav {
   display: block;
-  
-    
 }
 
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding:15px;
-    overflow: hidden;
-    
-  }
-  
-  .navbar li {
-    float: left;
-    
-    
-  }
-  
-  .navbar a {
-    color: #000000;
-    font-size: large;
-    padding: 15px;
-    
-  }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+}
 
+.navbar li {
+  float: left;
+}
 
-  .inputsection {
-    margin: 0 auto;
-    text-align: center;
-  }
+.navbar a {
+  color: #000000;
+  font-size: large;
+  padding: 15px;
+}
+
+.inputsection {
   
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inputfields {
+  font-size: 25px;
+}
+
+.inputpic {
+
+position: fixed;
+}
+
+.prompttag {
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* Class selectors **********************/
 .page {
-    max-width: 960px;
-    margin: 1rem auto;
-  }
-  
+  max-width: 960px;
+  margin: 1rem auto;
+}
