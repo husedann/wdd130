@@ -107,6 +107,11 @@
     
   }
 
+
+  .inputsection {
+    margin: 0 auto;
+    text-align: center;
+  }
   
 /* Class selectors **********************/
 .page {
