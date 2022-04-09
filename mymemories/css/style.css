@@ -96,7 +96,6 @@ h2 {
 }
 
 .inputsection {
-  
   margin: 0 auto;
   text-align: center;
 }
@@ -106,11 +105,11 @@ h2 {
 }
 
 .inputpic {
-
-position: fixed;
+  position: fixed;
 }
 
 .prompttab {
+  padding: 450px;
   margin: 0 auto;
   text-align: center;
 }
