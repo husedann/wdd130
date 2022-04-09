@@ -75,9 +75,11 @@
   }
 
 .bbox {
+  
+  padding: 20px;
   display: flex;
   height: 250px;
-  width: auto;
+ 
 }
 
 .nav {
