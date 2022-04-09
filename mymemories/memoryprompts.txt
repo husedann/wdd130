@@ -35,7 +35,6 @@ Are there any stories about famous or infamous relatives in your family?
 Have any recipes been passed down to you from family members?
 Are there any physical characteristics that run in your family?
 Are there any special heirlooms, photos, bibles, or other memorabilia that have been passed down in your family?
-What has been the most scariest experience?
 
 Questions About Their Adult Life
 What was the full name of your spouse? Siblings? Parents?
@@ -55,3 +54,4 @@ Of all the things you learned from your parents, what do you feel was the most v
 What accomplishments are you most proud of?
 What is the one thing you most want people to remember about you?
 While these questions make great conversation starters, the best way to uncover the good stuff is through more of a storytelling session than a Q&A. 
+What has been the most scariest experience?
